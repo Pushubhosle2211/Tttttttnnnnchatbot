@@ -15,15 +15,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("25052657"))
+API_HASH = getenv("58a6ffd47aded01d137ab6af5bc899cf")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8073221355:AAHk_zwyiwfdy7N3guqX8oLbW8HttKN4OMo")
 
 # SUDO USERS
 SUDO_USER = list(
-    map(int, getenv("SUDO_USER", "").split())
+    map(int, getenv("7548822418", "").split())
 )  # Input type must be interger
 
 # You'll need a Private Group ID for this.
