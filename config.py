@@ -27,7 +27,7 @@ SUDO_USER = list(
 )  # Input type must be interger
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
+LOG_GROUP_ID = int(getenv("-1002738235307"))
 
 # Message to display when someone starts your bot
 PRIVATE_START_MESSAGE = getenv(
